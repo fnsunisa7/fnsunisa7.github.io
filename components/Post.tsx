@@ -1,5 +1,5 @@
 import { Avatar, Box, Flex, Image, Text } from '@chakra-ui/react';
-import { RiHeart2Line, RiChat1Fill, RiShareLine } from 'react-icons/ri';
+import { RiHeart2Fill, RiChat1Fill, RiShareFill } from 'react-icons/ri';
 
 type PostType = {
     name?: string,
@@ -31,16 +31,12 @@ export default function Post({ name, message, email, timestamp, profileImage, po
                     </Box>
                 </Flex>
                 <Text py={4}>{message}</Text>
-                {/* objectFit="cover" layout='fill' */}
-                {/* <div className='relative h-56-224 md:h-96-384 bg-white'>
-                        <img src={postImage} /> 
-                    </div> */}
                 {postImage && (
                     <Image src={postImage} alt="" />
                 )}
-                <Flex justifyContent='space-evenly' alignItems='center' boxShadow='base' pt={4}>
+                <Flex justifyContent='space-evenly' alignItems='center' boxShadow='xs' py={4}>
                     <Flex alignItems='center' gap={1} cursor='pointer'>
-                        <RiHeart2Line style={{ height: '18px', width: '18px' }} />
+                        <RiHeart2Fill style={{ height: '18px', width: '18px' }} />
                         <Text fontSize='xs'>Like</Text>
                     </Flex>
                     <Flex alignItems='center' gap={1} cursor='pointer'>
@@ -48,7 +44,7 @@ export default function Post({ name, message, email, timestamp, profileImage, po
                         <Text fontSize='xs'>Comment</Text>
                     </Flex>
                     <Flex alignItems='center' gap={1} cursor='pointer'>
-                        <RiShareLine style={{ height: '18px', width: '18px' }} />
+                        <RiShareFill style={{ height: '18px', width: '18px' }} />
                         <Text fontSize='xs'>Share</Text>
                     </Flex>
                 </Flex>

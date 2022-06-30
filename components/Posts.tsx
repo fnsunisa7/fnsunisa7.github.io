@@ -8,7 +8,7 @@ export default function Posts() {
         {
             name: 'fon sunisa',
             profileImage: 'profile.jpg',
-            message: 'Hello, World!',
+            message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit est vel lacus auctor hendrerit. Curabitur eu lorem aliquet augue iaculis maximus. In hac habitasse platea dictumst. Aenean elit nulla, ornare nec egestas sed, finibus at augue. Mauris vitae sollicitudin massa. Aliquam tristique orci nunc, vitae blandit ante aliquam malesuada. In consequat tempor massa, nec ultrices neque venenatis in. Mauris molestie vel dui vel lobortis. Phasellus ornare dignissim massa eu maximus. Cras semper faucibus metus, pharetra fringilla lacus aliquam ut. Sed tempor odio in mi commodo, sit amet condimentum mi sodales.',
             postImage: 'cyberpunk-city-buildings-art.jpg',
             timestamp: 'timestamp here',
         },
