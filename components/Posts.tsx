@@ -2,8 +2,6 @@ import { Flex } from '@chakra-ui/react';
 import Post from './Post';
 
 export default function Posts() {
-    console.log('call Posts');
-
     const postData = [
         {
             name: 'fon sunisa',

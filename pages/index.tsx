@@ -6,8 +6,6 @@ import { RiMoonFoggyFill, RiSunFoggyFill, RiArrowUpCircleFill } from 'react-icon
 import Posts from '../components/Posts';
 
 const Home: NextPage = () => {
-  console.log('call Home');
-
   const { colorMode, toggleColorMode } = useColorMode();
   const topRef = useRef<HTMLDivElement>(null);
 

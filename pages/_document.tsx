@@ -3,8 +3,6 @@ import { ColorModeScript } from '@chakra-ui/react';
 import theme from '../theme';
 
 export default function Document() {
-    console.log('call _document');
-
     return (
         <Html>
             <Head>
